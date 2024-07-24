@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+      <head>
+            <title>TODO supply a title</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                  td,th{
+                        padding: 10px;
+                  }
+                  fieldset{
+                        width: 50%;
+                        border : none;
+                        background: lightblue;
+                        color: black;
+                  }
+            </style>
+      </head>
+      <body>
+            <form action="Produit_Servlete" method="Post">
+                  <center><!-- comment -->
+                        <fieldset>
+                        <legend>
+                              
+                        </legend>
+                        <table>
+                              <tbody>
+                                    <tr>
+                                          <td>
+                                                <label>Code Produit :</label>
+                                          </td>
+                                          <td>
+                                                <input type="text" name="code_produit"  required>
+                                          </td>
+                                    </tr>
+                                    <tr>
+                                           <td>
+                                                <label>Nom Produit :</label>
+                                          </td>
+                                          <td>
+                                                <input type="text" name="Nom_produit" required>
+                                          </td>
+                                    </tr>
+                                    <tr>
+                                           <td>
+                                                <label>Quantite Produit :</label>
+                                          </td>
+                                          <td>
+                                                <input type="number" name="Qts_produit" required>
+                                          </td>
+                                    </tr>
+                              </tbody>
+                        </table>
+                        
+                        <input type="submit" value="Save" name="btn_save" >
+
+                  </fieldset>
+               </center>
+                  
+            </form>
+      </body>
+</html>
